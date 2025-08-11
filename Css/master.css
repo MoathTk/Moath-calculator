@@ -1,0 +1,125 @@
+body {
+    margin: 1em;
+    background-color: #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fustat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main_area {
+    background-color: black;
+    width: 98%;
+    height: 626px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 8px;
+    box-shadow: 0px 0px 19px 3px #2196f361;
+}
+
+
+
+
+
+
+
+.CalculatingNum-area{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.cla{
+    margin: 10px;
+    display: flex;
+    justify-self: end;
+    align-items: end;
+    flex-direction: column;
+}
+.cla h2, .cla h5{
+    margin: 2px;
+}
+.cla h2{
+    font-size: 30px;
+    color: white;
+    overflow: hidden;
+}
+.cla h5{
+    color: rgb(170, 170, 170)
+}
+.Operation-area {
+    width: 100%;
+    height: 426px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: grid;
+    grid-template-rows: repeat(5, 18%);
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.Operation-area button{
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px;
+    color: white;
+}
+.Zero-row{
+    grid-column: span 2;
+}
+.Operation-area button {
+    background-color: rgb(53, 53, 53);
+
+    border-style: none;
+}
+.Operation-area button:hover{
+    opacity: 70%;
+}
+.f{
+    background-color: gray !important;
+}
+.Org{
+    background-color: orange !important;
+    /* border-color: rgb(255, 165, 47) !important; */
+}
+
+@media (min-width: 500px) {
+    .main_area{
+        width: 70%;
+    }
+    
+}
+@media (min-width: 600px) {
+    .main_area{
+        width: 60%;
+    }
+    
+}
+@media (min-width: 700px) {
+    .main_area{
+        width: 50%;
+    }
+    
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+    .main_area{
+        width: 40%;
+    }
+    
+}
+@media (min-width: 1001px)  {
+    .main_area{
+        width: 36%;
+    }
+    
+}
+
